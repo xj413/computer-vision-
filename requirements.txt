@@ -1,0 +1,17 @@
+# Real-Time Customer Demographic & Sentiment Analyzer
+# Dependencies
+
+# Core computer vision library
+opencv-python>=4.8.0
+
+# Deep learning-based face analysis library (includes face detection,
+# age estimation, gender classification, emotion recognition)
+deepface>=0.0.79
+
+# Deep learning backend (TensorFlow is DeepFace's default backend)
+# Note: TensorFlow will be automatically installed as a deepface dependency
+tensorflow>=2.10.0
+
+# Additional backends (optional - uncomment if needed)
+# torch>=2.0.0       # Alternative backend
+# onnxruntime>=1.15  # For ONNX models
