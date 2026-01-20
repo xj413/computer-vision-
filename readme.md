@@ -1,6 +1,6 @@
 # Real-Time Customer Demographic & Sentiment Analyzer
 
-A production-ready Python application that analyzes customer demographics (age, gender) and sentiment (emotion) in real-time using webcam feed.
+A python application that analyzes customer demographics (age, gender) and sentiment (emotion) in real-time using webcam feed.
 
 ## Features
 
@@ -154,8 +154,3 @@ DEEPFACE_DETECTOR = "opencv"  # Options: opencv, mtcnn, retinaface, ssd
 | No faces detected | Ensure good lighting, face the camera directly |
 | High CPU usage | Increase `ANALYSIS_INTERVAL` or use GPU backend |
 
----
-
-## License
-
-MIT License - Feel free to use in commercial projects.
